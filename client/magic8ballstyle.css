@@ -73,8 +73,8 @@ h1 {
     font-weight: bold;
     border-radius: 10px;
     border: 2px solid white;
-    font-size: 24px;
-    width: 62%;
+    font-size: 16px;
+    width: 42%;
     border-radius: 4px;
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
@@ -83,15 +83,15 @@ h1 {
 
 #form label {
     width: 4em;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 button {
     padding: 0px 15px;
-    height: 36px;
+ /*   height: 2px;*/
     font-weight: bold;
     width: 4em;
-    font-size: 25px;
+    font-size: 16px;
     text-transform: uppercase;
     background-color: black;
     border-width: 0;
