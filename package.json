@@ -1,0 +1,25 @@
+{
+  "name": "magic8ball",
+  "version": "2.0.2",
+  "description": "Magic 8 Ball is Magic",
+  "engines": {
+    "node": "7.4.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoobot/magic8ball"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
