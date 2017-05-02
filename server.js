@@ -5,8 +5,8 @@ var http = require('http').Server(app);
 var PORT = 8000;
 
 
-function startServer() {
-  app.use(express.static(__dirname + '/'));
+// function startServer() {
+  app.use(express.static(__dirname + '/client'));
   app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html');
   });
@@ -14,5 +14,5 @@ function startServer() {
   http.listen(PORT, function() {
     console.log('listening on *:' + PORT);
   });
-}
-startServer()
+// }
+// startServer()
