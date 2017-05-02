@@ -1,18 +1,16 @@
 var express = require('express');
 var app = express();
-var http = require('http').Server(app);
 
-var PORT = 8000;
+app.set('port', (process.env.PORT || 5000));
+
+app.use(express.static(__dirname + '/client'));
 
 
-// function startServer() {
-  app.use(express.static(__dirname + '/client'));
-  app.get('/', function(req, res) {
-    res.sendFile(__dirname + '/index.html');
-  });
 
-  http.listen(PORT, function() {
-    console.log('listening on *:' + PORT);
-  });
-// }
-// startServer()
+app.get('/', function(request, response) {
+  response.render('index.html');
+});
+
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
