@@ -1,0 +1,6 @@
+{
+  "name": "Magic8Ball",
+  "description": "Magic 8 Ball is Magic",
+  "repository": "https://github.com/zoobot/magic8ball",
+  "keywords": ["node", "express", "heroku"]
+}
