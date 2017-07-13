@@ -6,4 +6,4 @@
 * Javascript Magic 8 Ball for making your most serious life choices.
 * * *
 ### Use it here:
-* https://magic8ball.herokuapp.com/
+* https://askmagic8ball.herokuapp.com/
