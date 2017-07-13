@@ -3,7 +3,7 @@
   "version": "2.0.2",
   "description": "Magic 8 Ball is Magic",
   "engines": {
-    "node": "7.4.0"
+    "node": "8.1.4"
   },
   "main": "server.js",
   "scripts": {
